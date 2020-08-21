@@ -1,2 +1,2 @@
-# HtmlTeste
-Somente paginas de Html em teste
+# HtmlExercicios
+Primeiro programa será uma tela simples de cadastro.
