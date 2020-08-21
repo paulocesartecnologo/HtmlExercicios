@@ -1,0 +1,19 @@
+Site terá 4 paginas responsiva(Desktop,Mobile)
+[ok]	-Cabeçalho
+[ok]	-Menu de navegação e rodapé(sempre presentes)
+
+[ok]	1ºPagina principal(Home) index.html
+[ok]	-Texto de boas vindas
+[ok]	-Figura de um robô
+
+[ok]	2ºPagina de projetos(Projetos)projetos.hrml
+[ok]	-Texto
+[ok]	-Figuras
+[ok]	-Videos
+
+[ok]	3ºPaginas de material de apoio(Material)material.html
+[ok]	-Download de arquivo.pdf
+
+[ok]	4ºPagina de contato(Contato) contato.html
+[ok]	-Email de contato
+[ok]	-Redes Sociais
