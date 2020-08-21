@@ -2,11 +2,113 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scale=0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Site Teste</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/template.css">
 </head>
 <body>
+    <header>
+        <table border="1">
+            <thead>
+                <td><label for="Nome"> Nome: </label></td>
+                <td><input type="search" name="search" autofocus placeholder="Nome Completo"></td>
+            </thead>
+            <thead>
+                <td><label for="Genêro"> Genêro:</label></td>
+                <td><select name="genero" id="genero">
+                     <option value="Masculino">Masculino</option>
+                     <option value="Feminino">Feminino</option>
+                     <option value="Outro">Outro</option>
+                    </select>
+                </td>
+            </thead>
+            <thead>
+                <td>
+                 <label for="dataNascimento"> Data Nascimento: </label>
+                </td>
+                <td>
+                  <input type="date" name="date" required>
+                </td>
+            </thead>
+            <thead>
+                <td>
+                 <label for="CPF"> CPF: </label>
+                </td>
+                <td>
+                  <input type="text" name="text" placeholder="CPF" required>
+                </td>
+            </thead>
+            <thead>
+                <td>
+                 <label for="RG"> RG: </label>
+                </td>
+                <td>
+                  <input type="text" name="text" placeholder="RG" required>
+                </td>
+            </thead>
+            <thead>
+                <td>
+                 <label for="Endereço"> Endereço: </label>
+                </td>
+                <td>
+                  <input type="text" name="text" placeholder="Endereço" required>
+                </td>
+            </thead>
+            <thead>
+                <td>
+                 <label for="CEP"> CEP: </label>
+                </td>
+                <td>
+                  <input type="text" name="text" placeholder="CEP" required>
+                </td>
+            </thead>
+            <thead>
+                <td>
+                 <label for="Bairro"> Bairro: </label>
+                </td>
+                <td>
+                  <input type="text" name="text" placeholder="Bairro" required>
+                </td>
+            </thead>
+            <thead>
+                <td>
+                 <label for="Cidade"> Cidade: </label>
+                </td>
+                <td>
+                  <input type="text" name="text" placeholder="Cidade" required>
+                </td>
+            </thead>
+            <thead>
+                <td>
+                 <label for="UF"> UF: </label>
+                </td>
+                <td>
+                  <input type="text" name="text" placeholder="UF" required>
+                </td>
+            </thead>
+            <thead>
+                <td>
+                 <label for="Telefone"> Telefone: </label>
+                </td>
+                <td>
+                  <input type="tel" name="tel" placeholder="Telefone:" required>
+                </td>
+            </thead>
+            <thead>
+                <td>
+                 <label for="Celular"> Celular: </label>
+                </td>
+                <td>
+                  <input type="tel" name="tel" placeholder="Celular" required>
+                </td>
+            </thead>
+        </table>
+        <div class="controle">
+            <input type="submit" value="Limpar">
+            <input type="submit" value="Cadastrar">
+        </div>
+    </header>
     
 </body>
 </html>
