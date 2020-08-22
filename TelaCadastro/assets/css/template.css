@@ -1,0 +1,16 @@
+.container{
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 8x;
+}
+table{
+    width: 250px;
+    border: 2px;
+    border-radius: 5px;    
+}
+.controle{
+    padding-top: 5px;
+    padding-left: 140px;
+}
