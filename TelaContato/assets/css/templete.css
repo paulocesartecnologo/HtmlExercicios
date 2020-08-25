@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: #F5FFFA;
+    max-width: 500px;
+}
+h1{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #808080;
+    text-shadow: 5px 5px 5px #000000;
+}
+from label{
+    margin-left:20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+}
+input,textarea{
+    width: 200px;
+    padding: 10px;
+    color: #000000;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius:5px;
+    border: 1px solid;
+}
+input:hover,textarea:hover,input:focus,textarea:focus{
+    border-color: red;
+    box-shadow: 5px 0px 9px red;
+    background-color: #DCDCDC;
+    color: #000000;
+    font-weight: bold;
+}
+textarea{
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+.enviar{
+    background-color: #66FFFF;
+    height: 50px;  
+    width: 100px; 
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-webkit: border radius 5px;
+    -moz-webkit: border radius 5px;
+    -ms-webkit: border radius 5px;
+    -o-webkit: border radius 5px;
+    border: 1px solid;
+    color: #000000;
+}
