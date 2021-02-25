@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px ;
+    
+}
+/*Cabeçario*/
+header{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    height: 200px;
+    border: 2px solid #363636;
+    border-radius: 8px;
+    background-color: #DCDCDC;
+    
+}
+.imgLeft{
+    display: flex;
+    align-items:center;
+    padding: 50px ;
+    
+}
+h1{
+    font-size: 25px;
+}
+.imgcenter{
+    display: flex;
+    align-items:center;
+    padding: 25px ;
+    
+    
+}
+.imgRight{
+    display: flex;
+    align-items:center;
+    padding: 50px;
+}
+/*Parte Central do Site*/
+.body{
+    margin-left: 15px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    height: 500px;
+    border: 2px solid #363636;
+    border-radius: 8px;
+}
+h3{
+    font-size: 13px;
+}
+.bodyimgLeft{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin-right:2px;
+}
+.biblioteca{
+    border: 2px solid #363636;
+    border-radius: 8px;
+    background-color: #2B4C99;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.bodyimgcenter{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin-right:2px;
+}
+.habilidades{
+    border: 2px solid #363636;
+    border-radius: 8px;
+    background-color: #2B4C99;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-paraten;
+}
+.bodyimgRight{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin-right:2px;
+}
+.premiacoes{
+    border: 2px solid #363636;
+    border-radius: 8px;
+    background-color: #2B4C99;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
