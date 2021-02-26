@@ -48,7 +48,10 @@ var resultado = somar(50,50);
 console.log(resultado);
 */
 //-------------- Evento de Clique ----------------------------------------------------------------
-
+function clicou(){
+    alert("Você clicou no botão!");
+    
+}
 
 
 

@@ -6,12 +6,15 @@
     <link rel="stylesheet" href="style.css"/>
     <title>Olá Mundo</title>
 </head>
-<body>
+<body></body>
     
-    <h1 id="titulo">Seja Bem Vindo(a)</h1>
+    <h1 id="titulo" 
+    onclick="console.log('Clicou')"
+    onmouseover="console.log('Passou o mouse')"
+    onmouseout="console.log('Tirou o Mouse')">Seja Bem Vindo(a)</h1>
 
     <input id="campo" type="text" name="usuario" value="Nome do usuario" />
-    <button>Clique aqui</button>
+    <button onclick="console.log('Clicou no botão').innerHTML='Clicou'">Clique aqui</button>
 
     <script src="script.js"></script>
 </body>
