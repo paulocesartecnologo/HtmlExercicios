@@ -1,0 +1,15 @@
+.azul{
+    background-color:#0000ff;
+    color:#ffffff;
+}
+.vermelho{
+    background-color:#ff0000;
+    color:#ffffff;
+}
+.verde{
+    background-color: green;
+    color: #000000;
+}
+#telefone{
+    display: none;
+}

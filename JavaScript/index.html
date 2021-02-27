@@ -8,13 +8,22 @@
 </head>
 <body></body>
     
-    <h1 id="titulo" 
+    <h1 id="titulo"
     onclick="console.log('Clicou')"
     onmouseover="console.log('Passou o mouse')"
     onmouseout="console.log('Tirou o Mouse')">Seja Bem Vindo(a)</h1>
 
-    <input id="campo" type="text" name="usuario" value="Nome do usuario" />
+    <input onkeyup="digitou(event)" id="campo" type="text" name="usuario" value="Nome do usuario" />
+    
     <button onclick="console.log('Clicou no botão').innerHTML='Clicou'">Clique aqui</button>
+
+    <button onclick="azul()">Azul</button>
+    <button onclick="vermelho()">vermelho</button>
+    <button onclick="verde()">Verde</button>
+
+    <div id="telefone">99999999999</div>
+    <button onclick="mostrarTelefone(this)">Mostrar Telefone</button>
+
 
     <script src="script.js"></script>
 </body>
